@@ -16,9 +16,12 @@ A selection of gettext catalog editors:
  * Gnome
    * [GTranslator][5]
 
+See also the mundoplugs.com [translation guide][6].
+
 [1]: http://mundoplugs.com/
 [2]: https://www.gnu.org/software/gettext/manual/gettext.html
 [3]: http://www.poedit.net/
 [4]: http://userbase.kde.org/Lokalize
 [5]: http://gtranslator.sourceforge.net/
+[6]: http://mundoplugs.com/en/about#translation
 
