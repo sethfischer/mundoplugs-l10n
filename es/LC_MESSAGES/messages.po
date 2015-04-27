@@ -1,0 +1,565 @@
+# Spanish translations for mundoplugs.com
+# This file is released into the Public Domain under the terms of the
+# Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.
+# Seth Fischer <translation@mundoplugs.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mundoplugs.com 0.1.0\n"
+"Report-Msgid-Bugs-To: translation@mundoplugs.com\n"
+"POT-Creation-Date: 2014-05-31 22:42+1200\n"
+"PO-Revision-Date: 2014-06-01 08:51+1200\n"
+"Last-Translator: Seth Fischer <translation@mundoplugs.com>\n"
+"Language-Team: es\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 1.3\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: app/forms.py:10
+#, fuzzy
+msgid "Your email"
+msgstr "Su correo electrónico"
+
+#: app/forms.py:11
+#, fuzzy
+msgid "Please enter your email address."
+msgstr "Introduzca su dirección de correo electrónico."
+
+#: app/forms.py:12
+#, fuzzy
+msgid "The email address you entered is invalid."
+msgstr "La dirección de correo electrónico que ha introducido no es válido."
+
+#: app/forms.py:14
+#, fuzzy
+msgid "Message"
+msgstr "Mensaje"
+
+#: app/forms.py:15
+#, fuzzy
+msgid "Please enter a message."
+msgstr "Por favor, introduzca un mensaje."
+
+#: app/forms.py:19
+#, fuzzy
+msgid "Your message must be between {min} and {max} characters."
+msgstr "Su mensaje debe estar entre {min} y {max} caracteres."
+
+#: app/templates/404.html:6
+#: app/templates/404.html:21
+#, fuzzy
+msgid "404 – Not found"
+msgstr "404 – Página no encontrada"
+
+#: app/templates/404.html:20
+#, fuzzy
+msgid "Error"
+msgstr "Error"
+
+#: app/templates/404.html:23
+#, fuzzy
+msgid "The above page could not be found."
+msgstr "La página anterior no se pudo encontrar."
+
+#: app/templates/404.html:24
+#, fuzzy, python-format
+msgid "Return to the <a href=\"%(url)s\">Main Page</a>."
+msgstr "Volver a la <a href=\"%(url)s\">Página Principal</a>."
+
+#: app/templates/about.html:3
+#: app/templates/base.html:78
+#, fuzzy
+msgid "About"
+msgstr "Acerca de"
+
+#: app/templates/about.html:4
+#, fuzzy, python-format
+msgid "About %(sitename)s - a worldwide guide to domestic electricity, plugs, and socket outlets."
+msgstr "Acerca %(sitename)s - una guía a nivel mundial para la electricidad doméstica, los enchufes y tomas de corriente."
+
+#: app/templates/about.html:11
+#, fuzzy
+msgid "Errors and omissions"
+msgstr "Errores y omisiones"
+
+#: app/templates/about.html:14
+#, fuzzy, python-format
+msgid "Errors and omissions may be reported via the <a href=\"%(url)s\">contact form</a>."
+msgstr "Errores y omisiones pueden ser reportados a través del <a href=\"%(url)s\">formulario de contacto</a>."
+
+#: app/templates/about.html:21
+#, fuzzy, python-format
+msgid "All contributions to the %(db_name)s will be released into the public domain."
+msgstr "Todas las contribuciones al %(db_name)s serán liberados al dominio público."
+
+#: app/templates/about.html:23
+#: app/templates/about.html:108
+#: app/templates/about.html:141
+#, fuzzy
+msgid "mundoplugs.com Mains Electricity Database"
+msgstr "Base de datos mundoplugs.com General Luz"
+
+#: app/templates/about.html:28
+#, fuzzy
+msgid "Plug and socket samples"
+msgstr "Las muestras de los enchufes eléctricos y tomas de corriente"
+
+#: app/templates/about.html:31
+#, fuzzy, python-format
+msgid "Samples of the following plugs and sockets are required to complete the collection of images used by %(sitename)s."
+msgstr "Se requieren muestras de los siguientes enchufes eléctricos y tomas de corriente para completar la colección de imágenes utilizadas por %(sitename)s."
+
+#: app/templates/about.html:38
+#, fuzzy, python-format
+msgid "Please <a href=\"%(url)s\">contact us</a> if you are able to provide samples of the following plugs or sockets:"
+msgstr "Por favor, <a href=\"%(url)s\">comunícate con nosotros</a>, si usted es capaz de proporcionar muestras de los siguientes conectores eléctricos o enchufes:"
+
+#: app/templates/about.html:45
+#, fuzzy
+msgid "British round-pin two-pole plug with earthing contact (30A)"
+msgstr "Británica enchufe de dos polos redonda con toma de tierra (30A)"
+
+#: app/templates/about.html:46
+#, fuzzy
+msgid "American two-pole plug without earthing contact (polarised)"
+msgstr "Americano enchufe de dos polos sin tierra (polarised)"
+
+#: app/templates/about.html:47
+#, fuzzy
+msgid "Argentinian two-pole plug without earthing contact"
+msgstr "Argentina enchufe de dos polos sin tierra"
+
+#: app/templates/about.html:48
+#, fuzzy
+msgid "Argentinian two-pole plug with earthing contact"
+msgstr "Argentina enchufe de dos polos con tierra"
+
+#: app/templates/about.html:49
+#, fuzzy
+msgid "Danish two-pole plug with earthing contact"
+msgstr "Danés enchufe de dos polos con tierra"
+
+#: app/templates/about.html:50
+#, fuzzy
+msgid "Italian two-pole plug with earthing contact (10A)"
+msgstr "Italiana enchufe de dos polos con tierra (10A)"
+
+#: app/templates/about.html:51
+#, fuzzy
+msgid "IEC 250V two-pole plug with earthing contact"
+msgstr "CEI 250V enchufe de dos polos con tierra"
+
+#: app/templates/about.html:52
+#, fuzzy
+msgid "IEC 250V two-pole plug without earthing contact (unpolarised)"
+msgstr "CEI 250V enchufe de dos polos sin tierra (unpolarised)"
+
+#: app/templates/about.html:53
+#, fuzzy
+msgid "IEC 125V two-pole plug with earthing contact"
+msgstr "CEI 125V enchufe de dos polos con tierra"
+
+#: app/templates/about.html:54
+#, fuzzy
+msgid "IEC 125V two-pole plug without earthing contact (polarised)"
+msgstr "CEI 125V enchufe de dos polos sin tierra (unpolarised)"
+
+#: app/templates/about.html:55
+#, fuzzy
+msgid "IEC 125V two-pole plug without earthing contact (unpolarised)"
+msgstr "CEI 125V enchufe de dos polos sin tierra (unpolarised)"
+
+#: app/templates/about.html:59
+#, fuzzy
+msgid "Translation"
+msgstr "Traducción"
+
+#: app/templates/about.html:62
+#, fuzzy, python-format
+msgid "Please <a href=\"%(url)s\">contact us</a> if you are able to assist with translation."
+msgstr "Por favor, <a href=\"%(url)s\">comunícate con nosotros</a> si usted es capaz de ayudar con la traducción."
+
+#: app/templates/about.html:68
+#, fuzzy, python-format
+msgid "Prospective translators should familiarise themselves with the <a href=\"%(url)s\" rel=\"nofollow\">gnu gettext utilities</a>. It's not that hard! A gettext catalogs (.po files) editor can facilitate the process."
+msgstr "Traductores potenciales deben familiarizarse con las <a href=\"%(url)s\" rel=\"nofollow\">utilidades gettext de GNU</a>. ¡No es tan difícil! Un editor de catálogos gettext (archivos .po) puede facilitar el proceso."
+
+#: app/templates/about.html:74
+#, fuzzy
+msgid "A selection of gettext catalog editors"
+msgstr "Una selección de los editores del catálogo gettext"
+
+#: app/templates/about.html:75
+#, fuzzy
+msgid "Multi-platform"
+msgstr "Multiplataforma"
+
+#: app/templates/about.html:84
+#, fuzzy, python-format
+msgid "Translations and translation templates may be obtained from %(link)s."
+msgstr "Traducciones y plantillas de traducción pueden ser obtenidos de %(link)s."
+
+#: app/templates/about.html:90
+#, fuzzy
+msgid "Acknowledgements"
+msgstr "Agradecimientos"
+
+#: app/templates/about.html:94
+#, fuzzy, python-format
+msgid "Contributors are acknowledged in the %(link)s file."
+msgstr "Reconocemos a los contribuyentes en la carpeta %(link)s archivo."
+
+#: app/templates/about.html:102
+#, fuzzy
+msgid "Public domain"
+msgstr "Dominio público"
+
+#: app/templates/about.html:106
+#, fuzzy, python-format
+msgid "The %(db_name)s is released into the Public Domain under the terms of the %(link)s."
+msgstr "El %(db_name)s es liberada en el dominio público en los términos de la licencia %(link)s."
+
+#: app/templates/about.html:109
+#, fuzzy
+msgid "Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+msgstr "Creative Commons CC0 1.0 Universal (CC0 1.0) Ofrecimiento al Dominio Público"
+
+#: app/templates/about.html:116
+#, fuzzy, python-format
+msgid "Download the data or contribute at %(link)s."
+msgstr "Descargue los datos o contribuir a %(link)s."
+
+#: app/templates/about.html:133
+#: app/templates/about.html:134
+#: app/templates/base.html:111
+#: app/templates/base.html:112
+#, fuzzy
+msgid "This material is Open Knowledge"
+msgstr "Este material es Conocimiento Abierto"
+
+#: app/templates/about.html:138
+#, fuzzy, python-format
+msgid "To the extent possible under law, %(sitename)s has waived all copyright and related or neighbouring rights to the %(db_name)s."
+msgstr "En la medida que lo permita la ley, %(sitename)s ha renunciado a todos los derechos de autor y los derechos conexos o relacionados a la %(db_name)s."
+
+#: app/templates/about.html:152
+#: app/templates/about.html:153
+#, fuzzy
+msgid "HTML5 Powered with CSS3 / Styling, and Semantics"
+msgstr "HTML5 Powered con CSS3 / Styling, y Semántica"
+
+#: app/templates/about.html:160
+#: app/templates/about.html:161
+#, fuzzy
+msgid "Flask powered"
+msgstr "Desarrollado por Flask"
+
+#: app/templates/about.html:168
+#: app/templates/about.html:169
+#, fuzzy
+msgid "Flask-SQLAlchemy"
+msgstr "Flask-SQLAlchemy"
+
+#: app/templates/about.html:176
+#: app/templates/about.html:177
+#, fuzzy
+msgid "humans.txt"
+msgstr "humans.txt"
+
+#: app/templates/base.html:59
+#, fuzzy
+msgid "Select a country"
+msgstr "Seleccione un país"
+
+#: app/templates/base.html:69
+#: app/templates/country-form.html:10
+#, fuzzy
+msgid "Go"
+msgstr "Ir"
+
+#: app/templates/base.html:75
+#: app/templates/countries.html:3
+#: app/templates/countries.html:8
+#, fuzzy
+msgid "Countries"
+msgstr "Países"
+
+#: app/templates/base.html:81
+#: app/templates/contact-thankyou.html:3
+#: app/templates/contact.html:3
+#: app/templates/contact.html:10
+#, fuzzy
+msgid "Contact"
+msgstr "Contacto"
+
+#: app/templates/contact-thankyou.html:9
+#, fuzzy
+msgid "<strong>Thank you.</strong> Your email has been sent."
+msgstr "<strong>Gracias.</ strong> Su correo electrónico ha sido enviado."
+
+#: app/templates/contact.html:4
+#, fuzzy, python-format
+msgid "Contact %(sitename)s to report errors and omissions."
+msgstr "Póngase en contacto con %(sitename)s a reportar errores y omisiones."
+
+#: app/templates/contact.html:17
+#, fuzzy
+msgid "your email address"
+msgstr "su dirección de correo electrónico"
+
+#: app/templates/contact.html:18
+#, fuzzy
+msgid "your message"
+msgstr "tu mensaje"
+
+#: app/templates/contact.html:19
+#, fuzzy
+msgid "Send"
+msgstr "Enviar"
+
+#: app/templates/countries.html:4
+#, fuzzy
+msgid "Guide to the voltage and frequency used in domestic electrical supplies throughout the world."
+msgstr "Guía para el voltaje y la frecuencia utilizada en los suministros eléctricos domésticos en todo el mundo."
+
+#: app/templates/countries.html:14
+#: app/templates/country-form.html:3
+#: app/templates/country.html:48
+#, fuzzy
+msgid "Country"
+msgstr "País"
+
+#: app/templates/countries.html:15
+#: app/templates/country.html:48
+#, fuzzy
+msgid "Voltage"
+msgstr "Voltaje"
+
+#: app/templates/countries.html:15
+#: app/templates/country.html:7
+#, fuzzy
+msgid "Volts alternating current"
+msgstr "Voltios de corriente alterna"
+
+#: app/templates/countries.html:16
+#: app/templates/country.html:52
+#, fuzzy
+msgid "Frequency"
+msgstr "Frecuencia"
+
+#: app/templates/countries.html:16
+#: app/templates/country.html:7
+#, fuzzy
+msgid "Hertz"
+msgstr "Hertz"
+
+#: app/templates/country-form.html:4
+#, fuzzy
+msgid "Select a country..."
+msgstr "Seleccione un país..."
+
+#: app/templates/country-please-select.html:3
+#, fuzzy
+msgid "Error. Please select a country and resubmit."
+msgstr "Error. Por favor, seleccione un país y volver a enviar."
+
+#: app/templates/country-please-select.html:9
+#, fuzzy
+msgid "<strong>Please select a country</strong> and resubmit."
+msgstr "<strong>Por favor seleccione un país</ strong> y volver a enviar."
+
+#: app/templates/country.html:16
+#, fuzzy
+msgid "socket-outlet designation"
+msgstr "designación toma de corriente"
+
+#: app/templates/country.html:17
+#, fuzzy
+msgid "US Department of Commerce designation"
+msgstr "Departamento de Comercio de Estados Unidos designación"
+
+#: app/templates/country.html:27
+#, fuzzy
+msgid "Image not available."
+msgstr "La imagen no está disponible."
+
+#: app/templates/country.html:28
+#, fuzzy, python-format
+msgid "Please <a href=\"%(url)s\">contact us</a> if you are able to provide a sample for photographic purposes."
+msgstr "Por favor, póngase en <a href=\"%(url)s\">contacto con nosotros</a> si usted es capaz de proporcionar una muestra para fines fotográficos."
+
+#: app/templates/country.html:37
+#, fuzzy
+msgid "Plugs compatible with this socket-outlet:"
+msgstr "Enchufes eléctricos compatibles con esta toma de corriente:"
+
+#: app/templates/country.html:56
+#, fuzzy
+msgid "Domestic electrical supply."
+msgstr "Suministro de energía eléctrica doméstica."
+
+#: app/templates/country.html:87
+#, fuzzy
+msgid "Regional variations:"
+msgstr "Las variaciones regionales:"
+
+#: app/templates/country.html:98
+#: app/templates/country.html:133
+#: app/templates/country.html:145
+#, fuzzy
+msgid "national"
+msgstr "nacional"
+
+#: app/templates/country.html:102
+#, fuzzy, python-format
+msgid "For electrical supply information see the <a href=\"#%(fragment)s\">regional variations</a> below."
+msgstr "Para obtener información de suministro eléctrico ver las <a href=\"#%(fragment)s\">variaciones regionales</a> de abajo."
+
+#: app/templates/country.html:104
+#: app/templates/country.html:116
+#: app/templates/country.html:124
+#, fuzzy
+msgid "regional-variations"
+msgstr "variaciones-regionales"
+
+#: app/templates/country.html:114
+#, fuzzy, python-format
+msgid "For plug and socket information see the <a href=\"#%(fragment)s\">regional variations</a> below."
+msgstr "Para más información véase el enchufe y la toma de las <a href=\"#%(fragment)s\">variaciones regionales</a> de abajo."
+
+#: app/templates/country.html:131
+#, fuzzy, python-format
+msgid "For electrical supply information see the <a href=\"#%(fragment)s\">national information</a> above."
+msgstr "Para obtener información de suministro eléctrico ver la <a href=\"#%(fragment)s\">información nacional</a> más arriba."
+
+#: app/templates/country.html:143
+#, fuzzy, python-format
+msgid "For plug and socket information see the <a href=\"#%(fragment)s\">national information</a> above."
+msgstr "Para obtener información enchufe y toma ver la <a href=\"#%(fragment)s\">información nacional</a> más arriba."
+
+#: app/templates/home.html:3
+#: app/templates/home.html:8
+#: app/templates/home.html:11
+#: app/templates/index.html:3
+#, fuzzy
+msgid "Worldwide guide to domestic electricity, plugs, and socket outlets."
+msgstr "Guía de todo el mundo a la electricidad doméstica, los enchufes y tomas de corriente."
+
+#: app/templates/home.html:4
+#: app/templates/index.html:4
+#, fuzzy
+msgid "A guide to the various domestic electrical supplies, plugs, and socket outlets throughout the world."
+msgstr "Una guía para los distintos servicios domésticos eléctricos, enchufes y tomas de corriente en todo el mundo."
+
+#: app/templates/home.html:28
+#: app/templates/index.html:16
+#, fuzzy
+msgid "Electrical guide for travellers"
+msgstr "Guía eléctrico para los viajeros"
+
+#: app/templates/index.html:19
+#, fuzzy
+msgid "Select your language"
+msgstr "Seleccione su idioma"
+
+#: app/templates/index.html:27
+#, fuzzy, python-format
+msgid "Not in your language? <a href=\"%(url)s\">Help with translation</a>."
+msgstr "¿No en su idioma? <a href=\"%(url)s\">Ayuda con la traducción</ a>."
+
+#: db) Australia (AUS)
+#, fuzzy
+msgid "Australia"
+msgstr "Australia"
+
+#: db) Japan (JPN)
+#, fuzzy
+msgid "Japan"
+msgstr "Japón"
+
+#: db) Eastern Japan a region of "Japan" (JPN)
+#, fuzzy
+msgid "Eastern Japan"
+msgstr "El Este de Japón"
+
+#: db) Western Japan a region of "Japan" (JPN)
+#, fuzzy
+msgid "Western Japan"
+msgstr "El Oeste de Japón"
+
+#: db) New Zealand (NZL)
+#, fuzzy
+msgid "New Zealand"
+msgstr "Nueva Zelandia"
+
+#: db) Viet Nam (VNM)
+#, fuzzy
+msgid "Viet Nam"
+msgstr "Viet Nam"
+
+#: db) Northern Viet Nam a region of "Viet Nam" (VNM)
+#, fuzzy
+msgid "Northern Viet Nam"
+msgstr "El Norte de Viet Nam"
+
+#: db) Southern Viet Nam a region of "Viet Nam" (VNM)
+#, fuzzy
+msgid "Southern Viet Nam"
+msgstr "El Sur de Viet Nam"
+
+#: db) socket (ANZ10A)
+#, fuzzy
+msgid "Australia/New Zealand 10A socket-outlet"
+msgstr "Australia/Nueva Zelanda 10A toma de corriente"
+
+#: db) socket (CEE 7/1)
+#, fuzzy
+msgid "European two-pole socket-outlet without earth"
+msgstr "Europea enchufe de dos polos sin tierra"
+
+#: db) socket (IEC125V)
+#, fuzzy
+msgid "IEC 125V 15A socket-outlet"
+msgstr "CEI 15A 125V toma de corriente"
+
+#: db) plug (ANZ10A2)
+#, fuzzy
+msgid "Australia/New Zealand two-pole plug"
+msgstr "Australia/Nueva Zelanda enchufe de dos polos"
+
+#: db) plug (ANZ10A3)
+#, fuzzy
+msgid "Australia/New Zealand two-pole plug with earth"
+msgstr "Australia/Nueva Zelanda enchufe de dos polos con tierra"
+
+#: db) plug (CEE 5/2)
+#, fuzzy
+msgid "European 10A two-pole plug"
+msgstr "Europea 10A enchufe de dos polos"
+
+#: db) plug (CEE 7/16)
+#, fuzzy
+msgid "European 2.5A two-pole plug"
+msgstr "Europea 2.5A enchufe de dos polos"
+
+#: db) plug (IEC125V2)
+#, fuzzy
+msgid "IEC 125V two-pole plug"
+msgstr "CEI 125V enchufe de dos polos"
+
+#: db) plug (IEC125V2rev)
+#, fuzzy
+msgid "IEC 125V two-pole plug (reversible)"
+msgstr "CEI 125V enchufe de dos polos (reversible)"
+
+#: db) plug (IEC125V3)
+#, fuzzy
+msgid "IEC 125V two-pole plug with earth"
+msgstr "CEI 125V enchufe de dos polos con tierra"
+
