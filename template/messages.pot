@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mundoplugs.com 0.1.0\n"
 "Report-Msgid-Bugs-To: translation@mundoplugs.com\n"
-"POT-Creation-Date: 2014-05-31 22:42+1200\n"
+"POT-Creation-Date: 2014-06-01 13:00+1200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,8 +87,8 @@ msgid ""
 "All contributions to the %(db_name)s will be released into the public domain."
 msgstr ""
 
-#: app/templates/about.html:23 app/templates/about.html:108
-#: app/templates/about.html:141
+#: app/templates/about.html:23 app/templates/about.html:103
+#: app/templates/about.html:136
 msgid "mundoplugs.com Mains Electricity Database"
 msgstr ""
 
@@ -111,61 +111,21 @@ msgid ""
 msgstr ""
 
 #: app/templates/about.html:45
-msgid "British round-pin two-pole plug with earthing contact (30A)"
-msgstr ""
-
-#: app/templates/about.html:46
-msgid "American two-pole plug without earthing contact (polarised)"
-msgstr ""
-
-#: app/templates/about.html:47
-msgid "Argentinian two-pole plug without earthing contact"
-msgstr ""
-
-#: app/templates/about.html:48
-msgid "Argentinian two-pole plug with earthing contact"
-msgstr ""
-
-#: app/templates/about.html:49
-msgid "Danish two-pole plug with earthing contact"
-msgstr ""
-
-#: app/templates/about.html:50
-msgid "Italian two-pole plug with earthing contact (10A)"
-msgstr ""
-
-#: app/templates/about.html:51
-msgid "IEC 250V two-pole plug with earthing contact"
-msgstr ""
-
-#: app/templates/about.html:52
-msgid "IEC 250V two-pole plug without earthing contact (unpolarised)"
-msgstr ""
-
-#: app/templates/about.html:53
-msgid "IEC 125V two-pole plug with earthing contact"
+msgid "Sockets"
 msgstr ""
 
 #: app/templates/about.html:54
-msgid "IEC 125V two-pole plug without earthing contact (polarised)"
-msgstr ""
-
-#: app/templates/about.html:55
-msgid "IEC 125V two-pole plug without earthing contact (unpolarised)"
-msgstr ""
-
-#: app/templates/about.html:59
 msgid "Translation"
 msgstr ""
 
-#: app/templates/about.html:62
+#: app/templates/about.html:57
 #, python-format
 msgid ""
 "Please <a href=\"%(url)s\">contact us</a> if you are able to assist with "
 "translation."
 msgstr ""
 
-#: app/templates/about.html:68
+#: app/templates/about.html:63
 #, python-format
 msgid ""
 "Prospective translators should familiarise themselves with the <a href="
@@ -173,73 +133,73 @@ msgid ""
 "A gettext catalogs (.po files) editor can facilitate the process."
 msgstr ""
 
-#: app/templates/about.html:74
+#: app/templates/about.html:69
 msgid "A selection of gettext catalog editors"
 msgstr ""
 
-#: app/templates/about.html:75
+#: app/templates/about.html:70
 msgid "Multi-platform"
 msgstr ""
 
-#: app/templates/about.html:84
+#: app/templates/about.html:79
 #, python-format
 msgid "Translations and translation templates may be obtained from %(link)s."
 msgstr ""
 
-#: app/templates/about.html:90
+#: app/templates/about.html:85
 msgid "Acknowledgements"
 msgstr ""
 
-#: app/templates/about.html:94
+#: app/templates/about.html:89
 #, python-format
 msgid "Contributors are acknowledged in the %(link)s file."
 msgstr ""
 
-#: app/templates/about.html:102
+#: app/templates/about.html:97
 msgid "Public domain"
 msgstr ""
 
-#: app/templates/about.html:106
+#: app/templates/about.html:101
 #, python-format
 msgid ""
 "The %(db_name)s is released into the Public Domain under the terms of the "
 "%(link)s."
 msgstr ""
 
-#: app/templates/about.html:109
+#: app/templates/about.html:104
 msgid "Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
 msgstr ""
 
-#: app/templates/about.html:116
+#: app/templates/about.html:111
 #, python-format
 msgid "Download the data or contribute at %(link)s."
 msgstr ""
 
-#: app/templates/about.html:133 app/templates/about.html:134
+#: app/templates/about.html:128 app/templates/about.html:129
 #: app/templates/base.html:111 app/templates/base.html:112
 msgid "This material is Open Knowledge"
 msgstr ""
 
-#: app/templates/about.html:138
+#: app/templates/about.html:133
 #, python-format
 msgid ""
 "To the extent possible under law, %(sitename)s has waived all copyright and "
 "related or neighbouring rights to the %(db_name)s."
 msgstr ""
 
-#: app/templates/about.html:152 app/templates/about.html:153
+#: app/templates/about.html:147 app/templates/about.html:148
 msgid "HTML5 Powered with CSS3 / Styling, and Semantics"
 msgstr ""
 
-#: app/templates/about.html:160 app/templates/about.html:161
+#: app/templates/about.html:155 app/templates/about.html:156
 msgid "Flask powered"
 msgstr ""
 
-#: app/templates/about.html:168 app/templates/about.html:169
+#: app/templates/about.html:163 app/templates/about.html:164
 msgid "Flask-SQLAlchemy"
 msgstr ""
 
-#: app/templates/about.html:176 app/templates/about.html:177
+#: app/templates/about.html:171 app/templates/about.html:172
 msgid "humans.txt"
 msgstr ""
 

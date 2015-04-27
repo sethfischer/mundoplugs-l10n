@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mundoplugs.com 0.1.0\n"
 "Report-Msgid-Bugs-To: translation@mundoplugs.com\n"
-"POT-Creation-Date: 2014-05-31 22:42+1200\n"
-"PO-Revision-Date: 2014-06-01 08:51+1200\n"
+"POT-Creation-Date: 2014-06-01 13:00+1200\n"
+"PO-Revision-Date: 2014-06-01 13:06+1200\n"
 "Last-Translator: Seth Fischer <translation@mundoplugs.com>\n"
 "Language-Team: es\n"
 "Language: Spanish\n"
@@ -99,8 +99,8 @@ msgid "All contributions to the %(db_name)s will be released into the public dom
 msgstr "Todas las contribuciones al %(db_name)s serán liberados al dominio público."
 
 #: app/templates/about.html:23
-#: app/templates/about.html:108
-#: app/templates/about.html:141
+#: app/templates/about.html:103
+#: app/templates/about.html:136
 #, fuzzy
 msgid "mundoplugs.com Mains Electricity Database"
 msgstr "Base de datos mundoplugs.com General Luz"
@@ -122,152 +122,102 @@ msgstr "Por favor, <a href=\"%(url)s\">comunícate con nosotros</a>, si usted es
 
 #: app/templates/about.html:45
 #, fuzzy
-msgid "British round-pin two-pole plug with earthing contact (30A)"
-msgstr "Británica enchufe de dos polos redonda con toma de tierra (30A)"
-
-#: app/templates/about.html:46
-#, fuzzy
-msgid "American two-pole plug without earthing contact (polarised)"
-msgstr "Americano enchufe de dos polos sin tierra (polarised)"
-
-#: app/templates/about.html:47
-#, fuzzy
-msgid "Argentinian two-pole plug without earthing contact"
-msgstr "Argentina enchufe de dos polos sin tierra"
-
-#: app/templates/about.html:48
-#, fuzzy
-msgid "Argentinian two-pole plug with earthing contact"
-msgstr "Argentina enchufe de dos polos con tierra"
-
-#: app/templates/about.html:49
-#, fuzzy
-msgid "Danish two-pole plug with earthing contact"
-msgstr "Danés enchufe de dos polos con tierra"
-
-#: app/templates/about.html:50
-#, fuzzy
-msgid "Italian two-pole plug with earthing contact (10A)"
-msgstr "Italiana enchufe de dos polos con tierra (10A)"
-
-#: app/templates/about.html:51
-#, fuzzy
-msgid "IEC 250V two-pole plug with earthing contact"
-msgstr "CEI 250V enchufe de dos polos con tierra"
-
-#: app/templates/about.html:52
-#, fuzzy
-msgid "IEC 250V two-pole plug without earthing contact (unpolarised)"
-msgstr "CEI 250V enchufe de dos polos sin tierra (unpolarised)"
-
-#: app/templates/about.html:53
-#, fuzzy
-msgid "IEC 125V two-pole plug with earthing contact"
-msgstr "CEI 125V enchufe de dos polos con tierra"
+msgid "Sockets"
+msgstr "Toma de corriente eléctrica"
 
 #: app/templates/about.html:54
-#, fuzzy
-msgid "IEC 125V two-pole plug without earthing contact (polarised)"
-msgstr "CEI 125V enchufe de dos polos sin tierra (unpolarised)"
-
-#: app/templates/about.html:55
-#, fuzzy
-msgid "IEC 125V two-pole plug without earthing contact (unpolarised)"
-msgstr "CEI 125V enchufe de dos polos sin tierra (unpolarised)"
-
-#: app/templates/about.html:59
 #, fuzzy
 msgid "Translation"
 msgstr "Traducción"
 
-#: app/templates/about.html:62
+#: app/templates/about.html:57
 #, fuzzy, python-format
 msgid "Please <a href=\"%(url)s\">contact us</a> if you are able to assist with translation."
 msgstr "Por favor, <a href=\"%(url)s\">comunícate con nosotros</a> si usted es capaz de ayudar con la traducción."
 
-#: app/templates/about.html:68
+#: app/templates/about.html:63
 #, fuzzy, python-format
 msgid "Prospective translators should familiarise themselves with the <a href=\"%(url)s\" rel=\"nofollow\">gnu gettext utilities</a>. It's not that hard! A gettext catalogs (.po files) editor can facilitate the process."
 msgstr "Traductores potenciales deben familiarizarse con las <a href=\"%(url)s\" rel=\"nofollow\">utilidades gettext de GNU</a>. ¡No es tan difícil! Un editor de catálogos gettext (archivos .po) puede facilitar el proceso."
 
-#: app/templates/about.html:74
+#: app/templates/about.html:69
 #, fuzzy
 msgid "A selection of gettext catalog editors"
 msgstr "Una selección de los editores del catálogo gettext"
 
-#: app/templates/about.html:75
+#: app/templates/about.html:70
 #, fuzzy
 msgid "Multi-platform"
 msgstr "Multiplataforma"
 
-#: app/templates/about.html:84
+#: app/templates/about.html:79
 #, fuzzy, python-format
 msgid "Translations and translation templates may be obtained from %(link)s."
 msgstr "Traducciones y plantillas de traducción pueden ser obtenidos de %(link)s."
 
-#: app/templates/about.html:90
+#: app/templates/about.html:85
 #, fuzzy
 msgid "Acknowledgements"
 msgstr "Agradecimientos"
 
-#: app/templates/about.html:94
+#: app/templates/about.html:89
 #, fuzzy, python-format
 msgid "Contributors are acknowledged in the %(link)s file."
 msgstr "Reconocemos a los contribuyentes en la carpeta %(link)s archivo."
 
-#: app/templates/about.html:102
+#: app/templates/about.html:97
 #, fuzzy
 msgid "Public domain"
 msgstr "Dominio público"
 
-#: app/templates/about.html:106
+#: app/templates/about.html:101
 #, fuzzy, python-format
 msgid "The %(db_name)s is released into the Public Domain under the terms of the %(link)s."
 msgstr "El %(db_name)s es liberada en el dominio público en los términos de la licencia %(link)s."
 
-#: app/templates/about.html:109
+#: app/templates/about.html:104
 #, fuzzy
 msgid "Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
 msgstr "Creative Commons CC0 1.0 Universal (CC0 1.0) Ofrecimiento al Dominio Público"
 
-#: app/templates/about.html:116
+#: app/templates/about.html:111
 #, fuzzy, python-format
 msgid "Download the data or contribute at %(link)s."
 msgstr "Descargue los datos o contribuir a %(link)s."
 
-#: app/templates/about.html:133
-#: app/templates/about.html:134
+#: app/templates/about.html:128
+#: app/templates/about.html:129
 #: app/templates/base.html:111
 #: app/templates/base.html:112
 #, fuzzy
 msgid "This material is Open Knowledge"
 msgstr "Este material es Conocimiento Abierto"
 
-#: app/templates/about.html:138
+#: app/templates/about.html:133
 #, fuzzy, python-format
 msgid "To the extent possible under law, %(sitename)s has waived all copyright and related or neighbouring rights to the %(db_name)s."
 msgstr "En la medida que lo permita la ley, %(sitename)s ha renunciado a todos los derechos de autor y los derechos conexos o relacionados a la %(db_name)s."
 
-#: app/templates/about.html:152
-#: app/templates/about.html:153
+#: app/templates/about.html:147
+#: app/templates/about.html:148
 #, fuzzy
 msgid "HTML5 Powered with CSS3 / Styling, and Semantics"
 msgstr "HTML5 Powered con CSS3 / Styling, y Semántica"
 
-#: app/templates/about.html:160
-#: app/templates/about.html:161
+#: app/templates/about.html:155
+#: app/templates/about.html:156
 #, fuzzy
 msgid "Flask powered"
 msgstr "Desarrollado por Flask"
 
-#: app/templates/about.html:168
-#: app/templates/about.html:169
+#: app/templates/about.html:163
+#: app/templates/about.html:164
 #, fuzzy
 msgid "Flask-SQLAlchemy"
 msgstr "Flask-SQLAlchemy"
 
-#: app/templates/about.html:176
-#: app/templates/about.html:177
+#: app/templates/about.html:171
+#: app/templates/about.html:172
 #, fuzzy
 msgid "humans.txt"
 msgstr "humans.txt"
