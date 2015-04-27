@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mundoplugs.com 0.1.0\n"
 "Report-Msgid-Bugs-To: translation@mundoplugs.com\n"
-"POT-Creation-Date: 2014-06-01 13:00+1200\n"
+"POT-Creation-Date: 2014-06-21 16:24+1200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,28 +18,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.3\n"
 
-#: app/forms.py:10
+#: app/forms.py:14
 msgid "Your email"
 msgstr ""
 
-#: app/forms.py:11
+#: app/forms.py:16
 msgid "Please enter your email address."
 msgstr ""
 
-#: app/forms.py:12
+#: app/forms.py:19
 msgid "The email address you entered is invalid."
 msgstr ""
 
-#: app/forms.py:14
+#: app/forms.py:22
 msgid "Message"
 msgstr ""
 
-#: app/forms.py:15
+#: app/forms.py:23
 msgid "Please enter a message."
-msgstr ""
-
-#: app/forms.py:19
-msgid "Your message must be between {min} and {max} characters."
 msgstr ""
 
 #: app/templates/404.html:6 app/templates/404.html:21
@@ -59,7 +55,7 @@ msgstr ""
 msgid "Return to the <a href=\"%(url)s\">Main Page</a>."
 msgstr ""
 
-#: app/templates/about.html:3 app/templates/base.html:78
+#: app/templates/about.html:3 app/templates/base.html:83
 msgid "About"
 msgstr ""
 
@@ -87,8 +83,8 @@ msgid ""
 "All contributions to the %(db_name)s will be released into the public domain."
 msgstr ""
 
-#: app/templates/about.html:23 app/templates/about.html:103
-#: app/templates/about.html:136
+#: app/templates/about.html:23 app/templates/about.html:113
+#: app/templates/about.html:146
 msgid "mundoplugs.com Mains Electricity Database"
 msgstr ""
 
@@ -114,18 +110,22 @@ msgstr ""
 msgid "Sockets"
 msgstr ""
 
-#: app/templates/about.html:54
+#: app/templates/about.html:55
+msgid "Plugs"
+msgstr ""
+
+#: app/templates/about.html:64
 msgid "Translation"
 msgstr ""
 
-#: app/templates/about.html:57
+#: app/templates/about.html:67
 #, python-format
 msgid ""
 "Please <a href=\"%(url)s\">contact us</a> if you are able to assist with "
 "translation."
 msgstr ""
 
-#: app/templates/about.html:63
+#: app/templates/about.html:73
 #, python-format
 msgid ""
 "Prospective translators should familiarise themselves with the <a href="
@@ -133,90 +133,90 @@ msgid ""
 "A gettext catalogs (.po files) editor can facilitate the process."
 msgstr ""
 
-#: app/templates/about.html:69
+#: app/templates/about.html:79
 msgid "A selection of gettext catalog editors"
 msgstr ""
 
-#: app/templates/about.html:70
+#: app/templates/about.html:80
 msgid "Multi-platform"
-msgstr ""
-
-#: app/templates/about.html:79
-#, python-format
-msgid "Translations and translation templates may be obtained from %(link)s."
-msgstr ""
-
-#: app/templates/about.html:85
-msgid "Acknowledgements"
 msgstr ""
 
 #: app/templates/about.html:89
 #, python-format
+msgid "Translations and translation templates may be obtained from %(link)s."
+msgstr ""
+
+#: app/templates/about.html:95
+msgid "Acknowledgements"
+msgstr ""
+
+#: app/templates/about.html:99
+#, python-format
 msgid "Contributors are acknowledged in the %(link)s file."
 msgstr ""
 
-#: app/templates/about.html:97
+#: app/templates/about.html:107
 msgid "Public domain"
 msgstr ""
 
-#: app/templates/about.html:101
+#: app/templates/about.html:111
 #, python-format
 msgid ""
 "The %(db_name)s is released into the Public Domain under the terms of the "
 "%(link)s."
 msgstr ""
 
-#: app/templates/about.html:104
+#: app/templates/about.html:114
 msgid "Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
 msgstr ""
 
-#: app/templates/about.html:111
+#: app/templates/about.html:121
 #, python-format
 msgid "Download the data or contribute at %(link)s."
 msgstr ""
 
-#: app/templates/about.html:128 app/templates/about.html:129
-#: app/templates/base.html:111 app/templates/base.html:112
+#: app/templates/about.html:138 app/templates/about.html:139
+#: app/templates/base.html:116 app/templates/base.html:117
 msgid "This material is Open Knowledge"
 msgstr ""
 
-#: app/templates/about.html:133
+#: app/templates/about.html:143
 #, python-format
 msgid ""
 "To the extent possible under law, %(sitename)s has waived all copyright and "
 "related or neighbouring rights to the %(db_name)s."
 msgstr ""
 
-#: app/templates/about.html:147 app/templates/about.html:148
+#: app/templates/about.html:157 app/templates/about.html:158
 msgid "HTML5 Powered with CSS3 / Styling, and Semantics"
 msgstr ""
 
-#: app/templates/about.html:155 app/templates/about.html:156
+#: app/templates/about.html:165 app/templates/about.html:166
 msgid "Flask powered"
 msgstr ""
 
-#: app/templates/about.html:163 app/templates/about.html:164
+#: app/templates/about.html:173 app/templates/about.html:174
 msgid "Flask-SQLAlchemy"
 msgstr ""
 
-#: app/templates/about.html:171 app/templates/about.html:172
+#: app/templates/about.html:181 app/templates/about.html:182
 msgid "humans.txt"
 msgstr ""
 
-#: app/templates/base.html:59
+#: app/templates/base.html:64
 msgid "Select a country"
 msgstr ""
 
-#: app/templates/base.html:69 app/templates/country-form.html:10
+#: app/templates/base.html:74 app/templates/country-form.html:10
 msgid "Go"
 msgstr ""
 
-#: app/templates/base.html:75 app/templates/countries.html:3
+#: app/templates/base.html:80 app/templates/countries.html:3
 #: app/templates/countries.html:8
 msgid "Countries"
 msgstr ""
 
-#: app/templates/base.html:81 app/templates/contact-thankyou.html:3
+#: app/templates/base.html:86 app/templates/contact-thankyou.html:3
 #: app/templates/contact.html:3 app/templates/contact.html:10
 msgid "Contact"
 msgstr ""
@@ -308,42 +308,42 @@ msgstr ""
 msgid "Domestic electrical supply."
 msgstr ""
 
-#: app/templates/country.html:87
+#: app/templates/country.html:89
 msgid "Regional variations:"
 msgstr ""
 
-#: app/templates/country.html:98 app/templates/country.html:133
-#: app/templates/country.html:145
+#: app/templates/country.html:100 app/templates/country.html:135
+#: app/templates/country.html:147
 msgid "national"
 msgstr ""
 
-#: app/templates/country.html:102
+#: app/templates/country.html:104
 #, python-format
 msgid ""
 "For electrical supply information see the <a href=\"#%(fragment)s\">regional "
 "variations</a> below."
 msgstr ""
 
-#: app/templates/country.html:104 app/templates/country.html:116
-#: app/templates/country.html:124
+#: app/templates/country.html:106 app/templates/country.html:118
+#: app/templates/country.html:126
 msgid "regional-variations"
 msgstr ""
 
-#: app/templates/country.html:114
+#: app/templates/country.html:116
 #, python-format
 msgid ""
 "For plug and socket information see the <a href=\"#%(fragment)s\">regional "
 "variations</a> below."
 msgstr ""
 
-#: app/templates/country.html:131
+#: app/templates/country.html:133
 #, python-format
 msgid ""
 "For electrical supply information see the <a href=\"#%(fragment)s\">national "
 "information</a> above."
 msgstr ""
 
-#: app/templates/country.html:143
+#: app/templates/country.html:145
 #, python-format
 msgid ""
 "For plug and socket information see the <a href=\"#%(fragment)s\">national "
